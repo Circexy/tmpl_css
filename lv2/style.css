@@ -383,6 +383,7 @@ input:disabled {background-color: var(--lightgrey);}
 
 /* utilities (basic) */
 .center {text-align: center;}
+.wfull {width: 100%;}
 
 .m {margin: var(--margin);}
 .mt {margin-top: var(--margin);}
