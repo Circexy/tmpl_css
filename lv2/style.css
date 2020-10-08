@@ -325,7 +325,7 @@ form > input, form > textarea, form > select, form > button {
 	box-sizing: border-box;
 }
 
-disabled {
+input:disabled  {
 	background-color: var(--lightgrey);
 }
 
