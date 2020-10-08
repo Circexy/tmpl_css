@@ -319,10 +319,13 @@ form {
 	padding: calc(2 * var(--padding)) var(--padding);
 }
 
-form > input, form > textarea, form > select, form > button {
+form > input, 
+form > textarea, 
+form > select, 
+form > button {
 	width: 100%;
 	max-width: 100%;
-	margin-bottom: var(--margin-bottom);
+	/*margin-bottom: var(--margin-bottom);*/
 	box-sizing: border-box;
 }
 
