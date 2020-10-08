@@ -325,7 +325,6 @@ form > select,
 form > button {
 	width: 100%;
 	max-width: 100%;
-	/*margin-bottom: var(--margin-bottom);*/
 	box-sizing: border-box;
 }
 
@@ -343,6 +342,10 @@ p,
 ul,
 ol,
 form {margin-bottom: 0;}
+
+textarea:after{
+	margin-bottom: 0;
+}
 
 input:disabled  {background-color: var(--lightgrey);}
 
