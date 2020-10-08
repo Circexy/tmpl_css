@@ -18,6 +18,7 @@
 	--white: #f8f8f8;
 	--black: #111;
 	--grey: #ddd;
+	--lightgrey: #dadee4;
 	--primary: #090990; /* blue */
 	--success: #689f38; /* green */
 	--warning: #ffca28; /* yellow */
@@ -354,7 +355,7 @@ form > input, form > textarea, form > select, form > button {
 }
 
 .table td, .table th {
-	border-bottom: .05rem solid #dadee4;
+	border-bottom: .05rem solid var(--lightgrey);
 }
 
 .table th {
