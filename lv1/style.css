@@ -91,8 +91,7 @@ input[type="button"] {
   cursor: pointer;
   box-sizing: border-box;
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0;
+  background-color: #090990;
 } 
 
 button:hover,
@@ -103,9 +102,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB;
+  /*color: #FFF;*/
+  /*background-color: #1EAEDB;*/
+  filter: brightness(50%);
 }
 
 
