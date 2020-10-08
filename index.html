@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tmpl</title>
+	<link id="tmpl-css" rel="stylesheet" href="lv1/style.css">
+	<style>
+		#demoButton{
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="demoButton">
+		<span id="currentTheme">lv1 (default)</span>
+		<button id="switchThemeButton" onclick="switchTmplTheme();">Switch</button>
+	</div>
+
+	<!-- #################### -->
+	<!-- Reset -->
+	<!-- #################### -->
+	<h1>lorem ipsum dolor sit amet</h1>
+
+	<hr>
+
+	<center>test center</center>
+
+	<ul>
+		<li>lorem ipsum dolor sit amet</li>
+		<li>lorem ipsum dolor sit amet</li>
+		<li>lorem ipsum dolor sit amet</li>
+		<li>lorem ipsum dolor sit amet</li>
+	</ul>
+
+	<input type="text">
+
+	<a href="#">#blabla</a>
+	<br>
+	<a href="#">#blabla</a>
+	<br>
+	<a href="#">#blabla</a>
+
+	<button>Valider</button>
+
+	<pre>
+		blabla
+		test
+		youhouuu lorem
+	</pre>
+
+
+	
+
+
+	<script>
+	  var themes = [
+	    {
+	      name: "lv1 (default)",
+	      href: "lv1/style.css",
+	    },
+	    {
+	      name: "lv2",
+	      href: "lv2/style.css",
+	    },
+	    {
+	      name: "lv3",
+	      href: "lv3/style.css",
+	    },
+	  ];
+	  var current = 0;
+	  var tmplname = document.getElementById("tmpl-css");
+	  tmplname.disabled = false;
+	  
+	  var switchTag = document.getElementById("switch");
+	  var currentThemeTag = document.getElementById("currentTheme");
+	  function switchTmplTheme() {
+	    tmplname.href = themes[(current + 1)% themes.length].href;
+	    currentThemeTag.innerHTML = themes[(current + 1)% themes.length].name;
+	    current += 1
+	  }
+	</script>
+	
+</body>
+</html>
