@@ -171,7 +171,7 @@ h6 {font-size: 1rem;}
 	position: relative;
 	flex: 1;
 	background: var(--white);
-	border-radius: calc(var(--radius) * 2);
+	border-radius: var(--radius);
 	border: .0625rem solid var(--grey);
 	overflow: hidden;
 }
