@@ -433,7 +433,7 @@ input:disabled {background-color: var(--lightgrey);}
 }
 
 /* tablette // md */
-@media ( min-width : 768px ) and ( max-width: 991px) {
+@media ( min-width : 768px ) {
 	.hide-md{display: none;}
 	.show-xs{display: none;}
 	.show-l{display: none;}
@@ -441,7 +441,7 @@ input:disabled {background-color: var(--lightgrey);}
 }
 
 /* desktop // l */
-@media ( min-width : 992px ) and ( max-width: 1199px) {
+@media ( min-width : 992px ) {
 	.hide-l{display: none;}
 	.show-xs{display: none;}
 	.show-md{display: none;}
