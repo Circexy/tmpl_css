@@ -177,6 +177,11 @@ input[type="radio"] {
   display: inline; 
 }
 
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  color: red;
+}
+
 label {
   display: inline-block;
   margin-left: .5rem;
