@@ -2,7 +2,7 @@
  * startCSS (tmpl_lv2)
  * Author: Yuna
  */
- /*@import url(../lv1/style.css);*/
+ @import url(../lv1/style.css);
 
 /* Root */
 :root {
