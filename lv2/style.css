@@ -72,12 +72,12 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 
 /* font */
-h1 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
-h2 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
-h3 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio));}
-h4 {font-size: calc(1rem * var(--heading-ratio));}
-h5 {font-size: 1rem;}
-h6 {font-size: calc(1rem / var(--heading-ratio));}
+h1 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
+h2 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
+h3 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
+h4 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio));}
+h5 {font-size: calc(1rem * var(--heading-ratio));}
+h6 {font-size: 1rem;}
 
 p {
   margin-top: 0;
