@@ -3,7 +3,6 @@
  * Author: Yuna
  */
  @import url(../lv1/style.css);
-/* * {margin: 0 !important; padding: 0 !important;}*/ /* reset all margin & padding */
 
 /* Root */
 :root {
@@ -343,7 +342,7 @@ ul,
 ol,
 form {margin-bottom: 0;}
 
-input:disabled  {background-color: var(--lightgrey);}
+input:disabled {background-color: var(--lightgrey);}
 
 /* table */
 .table {
