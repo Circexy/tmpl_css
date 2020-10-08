@@ -60,11 +60,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; 
+  color: #090990; 
 }
 
 a:hover {
-  color: #0FA0CE; 
+  filter: brightness(80%); 
 }
 
 
@@ -156,7 +156,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #090990;
   outline: 0;
 }
 
