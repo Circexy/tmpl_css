@@ -142,12 +142,12 @@
 }
 
 /* Typo */
-h1 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
-h2 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
-h3 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
-h4 {font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio));}
-h5 {font-size: calc(1rem * var(--heading-ratio));}
-h6 {font-size: 1rem;}
+h1 {margin-bottom:0; font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
+h2 {margin-bottom:0; font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
+h3 {margin-bottom:0; font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio) * var(--heading-ratio));}
+h4 {margin-bottom:0; font-size: calc(1rem * var(--heading-ratio) * var(--heading-ratio));}
+h5 {margin-bottom:0; font-size: calc(1rem * var(--heading-ratio));}
+h6 {margin-bottom:0; font-size: 1rem;}
 
 /* card */
 .card {
