@@ -315,59 +315,7 @@ h6 {font-size: 1rem;}
 	height: auto;
 }
 
-/* input */
-input, textarea, select, button {
-	max-width: 100%;
-	flex-grow: 1;
-	flex-basis: 0px;
-	background: var(--white);
-	color: var(--black);
-	border: 0.0625rem solid var(--grey);
-}
 
-input:focus, textarea:focus, select:focus {
-	outline: none;
-	border: 0.0625rem solid var(--black) !important;
-}
-
-select {
-	padding: 2px 10px;
-}
-
-option {
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-button {
-	text-transform: none;
-	display: inline-block;
-	border-radius: var(--radius);
-	padding: var(--padding) calc(1.5 * var(--padding));
-	text-decoration: none;
-	cursor: pointer;
-	transition: background 0.3s;
-}
-
-button:hover, button:focus {
-	filter: brightness(85%);
-}
-
-a {
-	color: var(--primary)
-}
-
-a:hover {
-	filter: brightness(150%);
-}
-
-input:disabled, input[disabled], 
-textarea:disabled, textarea[disabled], 
-select:disabled, select[disabled], 
-button:disabled, button[disabled] {
-	cursor: not-allowed;
-	opacity: 0.75;
-}
 
 /* forms */
 form {
