@@ -322,7 +322,6 @@ form > input,
 form > textarea, 
 form > select, 
 form > button {
-	width: 100%;
 	max-width: 100%;
 	box-sizing: border-box;
 }
