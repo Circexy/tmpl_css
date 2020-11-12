@@ -11,6 +11,43 @@
 	<!-- #################### -->
 	<!-- tmpl_lv3 -->
 	<!-- #################### -->
+		<!-- collapse -->
+		<div class="collapse">
+			<input type="checkbox" id="collapse-section1" checked aria-hidden="true">
+			<label for="collapse-section1" aria-hidden="true">Collapse section 1</label>
+			<div>
+				<p>This is the first section of the collapse</p>
+			</div>
+
+			<input type="checkbox" id="collapse-section2" aria-hidden="true">
+			<label for="collapse-section2" aria-hidden="true">Collapse section 2</label>
+			<div>
+				<p>This is the second section of the collapse</p>
+			</div>
+		</div>
+
+		<!-- modal -->
+		<label class="button primary large" for="modal-check">Click to display a modal dialog</label>
+		<br>
+
+		<input id="modal-check" type="checkbox">
+		<div class="modal" style="text-align:initial">
+			<div class="card">
+				<label for="modal-check" class="close"></label>
+				<h3 class="section double-padded">Modal</h3>
+				<div class="section double-padded">
+					<p>This is a modal window!</p>
+					<label class="button primary" for="modal-check">Close modal</label>
+				</div>
+			</div>
+		</div>
+
+		<!-- tooltip -->
+		<span class="tooltip bottom" aria-label="This is a tooltip">Hover over this text to see a reverse tooltip!</span>
+		
+		<!-- pos fixed -->
+		<span class="toast">This is a normal toast message!</span>
+
 		<ul class="pagination">
 			<li class="page-item disabled">
 				<a href="#" tabindex="-1">Previous</a>
