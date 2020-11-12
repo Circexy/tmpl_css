@@ -5,3 +5,97 @@
  * Author: Yuna
  */
  @import url(../lv2/style.css);
+
+:root {
+	--pink: #FF1493; /* rose */
+}
+
+/* header, footer */
+header {
+	background: var(--default-background);
+	color: var(--default-color);
+	border-bottom: 1px solid var(--default-color);
+	padding: var(--padding) 0;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+header.row {
+	box-sizing: content-box;
+}
+
+header .logo {
+	font-size: 1.75rem;
+	padding: var(--padding) calc(2 * var(--padding));
+	text-decoration: none;
+}
+
+header button, header [type="button"], header .button, header [role="button"] {
+	box-sizing: border-box;
+    padding: var(--padding) 0;
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: var( --default-color);
+}
+
+header.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 1101;
+	top: 0;
+}
+
+header button:hover, header button:focus, header [type="button"]:hover, header [type="button"]:focus, header .button:hover, header .button:focus, header [role="button"]:hover, header [role="button"]:focus {
+	background: var(--default-background);
+	filter: brightness(75%);
+}
+
+
+
+footer {
+	background: var(--default-background);
+	color: var(--default-color);
+	border-top: 1px solid var(--default-color);
+	padding: calc(2 * var(--padding)) var(--padding);
+}
+
+footer a, footer a:visited {
+	color: var(--pink);
+}
+
+footer.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 1101;
+	bottom: 0;
+}
+
+/* navigation */
+
+/* pagination */
+
+/* toast, tooltip, modal, collapse */
+
+/* tabs */
+
+/* filter */
+
+/* banner */
+
+/* progress, spinner */
+
+/* breadcrumb */
+
+/* news ticker */
+
+/* utilities */
+
+/* icon (base64) */
+
+/* blink */
+
+/* easteregg */

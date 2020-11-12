@@ -24,14 +24,14 @@
 	--error: #b71c1c; /* red */
 
 	--default-background: #f8f8f8;
-	--default-color:  #111;
+	--default-color:  #333;
 }
 
 /* Root black theme */
 @media screen and (prefers-color-scheme: dark){
     /* si le theme dark est choisi sur le navigateur */
 	:root{
-		--default-background: #111;
+		--default-background: #333;
 		--default-color:  #f8f8f8;
 	}
 }
