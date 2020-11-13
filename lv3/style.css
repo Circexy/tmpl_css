@@ -708,6 +708,102 @@ nav .lv2:before {
 }
 
 /* filter */
+.filter .filter-tag#tag-a:checked ~ .filter-nav .chip[for="tag-a"],
+.filter .filter-tag#tag-b:checked ~ .filter-nav .chip[for="tag-b"],
+.filter .filter-tag#tag-c:checked ~ .filter-nav .chip[for="tag-c"],
+.filter .filter-tag#tag-d:checked ~ .filter-nav .chip[for="tag-d"],
+.filter .filter-tag#tag-e:checked ~ .filter-nav .chip[for="tag-e"],
+.filter .filter-tag#tag-f:checked ~ .filter-nav .chip[for="tag-f"],
+.filter .filter-tag#tag-g:checked ~ .filter-nav .chip[for="tag-g"],
+.filter .filter-tag#tag-h:checked ~ .filter-nav .chip[for="tag-h"],
+.filter .filter-tag#tag-i:checked ~ .filter-nav .chip[for="tag-i"],
+.filter .filter-tag#tag-j:checked ~ .filter-nav .chip[for="tag-j"],
+.filter .filter-tag#tag-k:checked ~ .filter-nav .chip[for="tag-k"],
+.filter .filter-tag#tag-l:checked ~ .filter-nav .chip[for="tag-l"],
+.filter .filter-tag#tag-m:checked ~ .filter-nav .chip[for="tag-m"],
+.filter .filter-tag#tag-n:checked ~ .filter-nav .chip[for="tag-n"],
+.filter .filter-tag#tag-o:checked ~ .filter-nav .chip[for="tag-o"],
+.filter .filter-tag#tag-p:checked ~ .filter-nav .chip[for="tag-p"],
+.filter .filter-tag#tag-q:checked ~ .filter-nav .chip[for="tag-q"],
+.filter .filter-tag#tag-r:checked ~ .filter-nav .chip[for="tag-r"],
+.filter .filter-tag#tag-s:checked ~ .filter-nav .chip[for="tag-s"],
+.filter .filter-tag#tag-t:checked ~ .filter-nav .chip[for="tag-t"],
+.filter .filter-tag#tag-u:checked ~ .filter-nav .chip[for="tag-u"],
+.filter .filter-tag#tag-v:checked ~ .filter-nav .chip[for="tag-v"],
+.filter .filter-tag#tag-w:checked ~ .filter-nav .chip[for="tag-w"],
+.filter .filter-tag#tag-x:checked ~ .filter-nav .chip[for="tag-x"],
+.filter .filter-tag#tag-y:checked ~ .filter-nav .chip[for="tag-y"],
+.filter .filter-tag#tag-z:checked ~ .filter-nav .chip[for="tag-z"],
+.filter .filter-tag#tag-0:checked ~ .filter-nav .chip[for="tag-0"],
+.filter .filter-tag#tag-1:checked ~ .filter-nav .chip[for="tag-1"],
+.filter .filter-tag#tag-2:checked ~ .filter-nav .chip[for="tag-2"],
+.filter .filter-tag#tag-3:checked ~ .filter-nav .chip[for="tag-3"],
+.filter .filter-tag#tag-4:checked ~ .filter-nav .chip[for="tag-4"],
+.filter .filter-tag#tag-5:checked ~ .filter-nav .chip[for="tag-5"],
+.filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
+.filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
+.filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"],
+.filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-9"] {
+	background: var(--pink);
+	color: #fff;
+}
+
+.filter .filter-tag#tag-a:checked ~ .filter-body .filter-item:not([data-tag~="tag-a"]),
+.filter .filter-tag#tag-b:checked ~ .filter-body .filter-item:not([data-tag~="tag-b"]),
+.filter .filter-tag#tag-c:checked ~ .filter-body .filter-item:not([data-tag~="tag-c"]),
+.filter .filter-tag#tag-d:checked ~ .filter-body .filter-item:not([data-tag~="tag-d"]),
+.filter .filter-tag#tag-e:checked ~ .filter-body .filter-item:not([data-tag~="tag-e"]),
+.filter .filter-tag#tag-f:checked ~ .filter-body .filter-item:not([data-tag~="tag-f"]),
+.filter .filter-tag#tag-g:checked ~ .filter-body .filter-item:not([data-tag~="tag-g"]),
+.filter .filter-tag#tag-h:checked ~ .filter-body .filter-item:not([data-tag~="tag-h"]),
+.filter .filter-tag#tag-i:checked ~ .filter-body .filter-item:not([data-tag~="tag-i"]),
+.filter .filter-tag#tag-j:checked ~ .filter-body .filter-item:not([data-tag~="tag-j"]),
+.filter .filter-tag#tag-k:checked ~ .filter-body .filter-item:not([data-tag~="tag-k"]),
+.filter .filter-tag#tag-l:checked ~ .filter-body .filter-item:not([data-tag~="tag-l"]),
+.filter .filter-tag#tag-m:checked ~ .filter-body .filter-item:not([data-tag~="tag-m"]),
+.filter .filter-tag#tag-n:checked ~ .filter-body .filter-item:not([data-tag~="tag-n"]),
+.filter .filter-tag#tag-o:checked ~ .filter-body .filter-item:not([data-tag~="tag-o"]),
+.filter .filter-tag#tag-p:checked ~ .filter-body .filter-item:not([data-tag~="tag-p"]),
+.filter .filter-tag#tag-q:checked ~ .filter-body .filter-item:not([data-tag~="tag-q"]),
+.filter .filter-tag#tag-r:checked ~ .filter-body .filter-item:not([data-tag~="tag-r"]),
+.filter .filter-tag#tag-s:checked ~ .filter-body .filter-item:not([data-tag~="tag-s"]),
+.filter .filter-tag#tag-t:checked ~ .filter-body .filter-item:not([data-tag~="tag-t"]),
+.filter .filter-tag#tag-u:checked ~ .filter-body .filter-item:not([data-tag~="tag-u"]),
+.filter .filter-tag#tag-v:checked ~ .filter-body .filter-item:not([data-tag~="tag-v"]),
+.filter .filter-tag#tag-w:checked ~ .filter-body .filter-item:not([data-tag~="tag-w"]),
+.filter .filter-tag#tag-x:checked ~ .filter-body .filter-item:not([data-tag~="tag-x"]),
+.filter .filter-tag#tag-y:checked ~ .filter-body .filter-item:not([data-tag~="tag-y"]),
+.filter .filter-tag#tag-z:checked ~ .filter-body .filter-item:not([data-tag~="tag-z"]),
+.filter .filter-tag#tag-1:checked ~ .filter-body .filter-item:not([data-tag~="tag-1"]),
+.filter .filter-tag#tag-2:checked ~ .filter-body .filter-item:not([data-tag~="tag-2"]),
+.filter .filter-tag#tag-3:checked ~ .filter-body .filter-item:not([data-tag~="tag-3"]),
+.filter .filter-tag#tag-4:checked ~ .filter-body .filter-item:not([data-tag~="tag-4"]),
+.filter .filter-tag#tag-5:checked ~ .filter-body .filter-item:not([data-tag~="tag-5"]),
+.filter .filter-tag#tag-6:checked ~ .filter-body .filter-item:not([data-tag~="tag-6"]),
+.filter .filter-tag#tag-7:checked ~ .filter-body .filter-item:not([data-tag~="tag-7"]),
+.filter .filter-tag#tag-8:checked ~ .filter-body .filter-item:not([data-tag~="tag-8"]),
+.filter .filter-tag#tag-8:checked ~ .filter-body .filter-item:not([data-tag~="tag-9"]) {
+	display: none;
+}
+
+.filter .filter-tag {
+	display: none;
+}
+
+.filter .filter-nav {
+	margin: .4rem 0;
+}
+
+.filter .filter-body {
+	display: flex;
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.filter .card {
+	margin: 0 var(--padding);
+}
 
 /* banner */
 
