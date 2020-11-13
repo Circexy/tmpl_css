@@ -808,6 +808,114 @@ nav .lv2:before {
 /* banner */
 
 /* progress, spinner */
+progress {
+	display: block;
+	vertical-align: baseline;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	height: 0.75rem;
+	width: calc(100% - 2 * var(--margin));
+	margin: var(--margin);
+	border: 0;
+	border-radius: calc(2 * var(--radius));
+	background: var(--pink);
+	color: var(--default-color);
+}
+
+progress::-webkit-progress-value {
+	background: var(--pink);
+	border-top-left-radius: calc(2 * var(--radius));
+	border-bottom-left-radius: calc(2 * var(--radius));
+}
+
+progress::-webkit-progress-bar {
+	background: var(--lightgrey);
+	border-radius: calc(2 * var(--radius));
+}
+
+progress::-moz-progress-bar {
+	background: var(--pink);
+	border-top-left-radius: calc(2 * var(--radius));
+	border-bottom-left-radius: calc(2 * var(--radius));
+}
+
+progress[value="1000"]::-webkit-progress-value {
+	border-radius: calc(2 * var(--radius));
+}
+
+progress[value="1000"]::-moz-progress-bar {
+	border-radius: calc(2 * var(--radius));
+}
+
+progress.inline {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+}
+
+/* Custom elements for progress bars and spinners. */
+progress.primary {
+	--progress-fore-color: var(--primary);
+}
+
+progress.secondary {
+	--progress-fore-color: var(--pink);
+}
+
+progress.tertiary {
+	--progress-fore-color: var(--success);
+}
+
+@-webkit-keyframes spinner-donut-anim {
+	0% {
+		-webkit-transform: rotate(0deg)
+	}
+	100% {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@keyframes spinner-donut-anim {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+.spinner-donut {
+	display: inline-block;
+	border: .25rem solid var(--default-color);
+	border-left: .25rem solid var(--primary);
+	border-radius: 50%;
+	width: 1.25rem;
+	height: 1.25rem;
+	-webkit-animation: spinner-donut-anim 1.2s linear infinite;
+	animation: spinner-donut-anim 1.2s linear infinite
+}
+
+.spinner-donut.primary {
+	border: .25rem solid var(--default-color);
+	border-left: .25rem solid var(--primary);
+}
+
+.spinner-donut.secondary {
+	border: .25rem solid var(--default-color);
+	border-left: .25rem solid var(--pink);
+}
+
+.spinner-donut.tertiary {
+	border: .25rem solid var(--default-color);
+	border-left: .25rem solid var(--success);
+}
+
+.spinner-donut.large {
+	border-width: .375rem;
+	width: 2rem;
+	height: 2rem
+}
 
 /* breadcrumb */
 
