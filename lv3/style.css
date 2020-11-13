@@ -918,6 +918,70 @@ progress.tertiary {
 }
 
 /* breadcrumb */
+ul.breadcrumbs {
+	color: var(--pink);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	list-style: none;
+	margin: var(--margin);
+	width: calc(100% - 2 * var(--margin));
+	padding: 0
+}
+
+ul.breadcrumbs li {
+	-webkit-box-flex: 1;
+	max-width: 100%;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-flex-basis: 0;
+	flex-basis: 0;
+	position: relative;
+	text-align: center;
+	background: var(--darkgrey);
+	height: 2rem;
+	line-height: 2rem;
+	margin-right: 1.125rem
+}
+
+ul.breadcrumbs li:before,
+ul.breadcrumbs li:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 0 solid var(--darkgrey);
+	border-width: 1rem 1rem
+}
+
+ul.breadcrumbs li:before {
+	left: -1rem;
+	border-left-color: transparent
+}
+
+ul.breadcrumbs li:after {
+	left: 100%;
+	border-color: transparent;
+	border-left-color: var(--darkgrey);
+}
+
+ul.breadcrumbs li:first-child:before {
+	border: 0
+}
+
+ul.breadcrumbs li:last-child {
+	margin-right: 0
+}
+
+ul.breadcrumbs li:last-child:after {
+	border: 0
+}
+
+ul.breadcrumbs a {
+	text-decoration: none;
+	color: var(--white);
+}
 
 /* news ticker */
 
