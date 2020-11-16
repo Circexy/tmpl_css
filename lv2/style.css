@@ -93,7 +93,7 @@ body {
 .col-fill {width: 0; min-width: 0; flex-grow: 1;}
 
 /* mobile // xs */
-@media ( max-width: 767px ) {
+/*@media ( max-width: 767px ) {*/
 	/*.col,*/
 	[class*="col-xs-"], [class^='col-xs-'],
 	[class*="col-md-"], [class^='col-md-'],
@@ -111,7 +111,7 @@ body {
 	.col-xs-10 {flex: 0 0 calc((100% / (var(--columns)/10)));max-width: calc((100% / (var(--columns)/10)));}
 	.col-xs-11 {flex: 0 0 calc((100% / (var(--columns)/11)));max-width: calc((100% / (var(--columns)/11)));}
 	.col-xs-12 {flex: 0 0 calc((100% / (var(--columns)/var(--columns))));max-width: calc((100% / (var(--columns)/12)));}
-}
+/*}*/
 
 /* tablette // md */
 @media ( min-width : 768px ) {

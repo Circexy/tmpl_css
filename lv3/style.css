@@ -806,11 +806,6 @@ nav .lv2:before {
 }
 
 /* banner */
-.banner {
-	/* height: 100vh;
-	width: 100%; */
-}
-
 .banner .banner-background {
 	height: 100vh;
 	width: 100%;
@@ -822,8 +817,7 @@ nav .lv2:before {
     top: 0;
 	left: 50%;
     transform: translate(-50%);
-	width: 50%;
-	height: 100vh;
+	width: 100%;
 }
 
 /* progress, spinner */
