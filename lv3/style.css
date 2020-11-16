@@ -1050,6 +1050,9 @@ ul.breadcrumbs a {
 }
 
 /* utilities */
+.bg-pink{background-color: var(--pink) !important;}
+
+.color-pink{color: var(--pink) !important;}
 
 /* btn close */
 .close {
