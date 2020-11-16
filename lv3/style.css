@@ -510,7 +510,7 @@ nav .lv2:before {
 .collapse > :checked + label {
 	color: var(--black);
 	background: var(--grey);
-	border-bottom-color: var(--default-color);
+	border-bottom-color: var(--pink);
 }
 
 .collapse > :checked + label + div {
@@ -1079,8 +1079,11 @@ ul.breadcrumbs a {
 	text-align: center
 }
 
-/* icon (base64) */
-
 /* blink */
+.blink{ animation: Blink 1s infinite; }
 
-/* easteregg */
+@keyframes Blink{
+	0%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 1;}
+}
